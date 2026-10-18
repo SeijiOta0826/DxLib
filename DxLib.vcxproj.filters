@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="0-Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="2-Engine">
+      <UniqueIdentifier>{f1f814a4-e162-4499-8437-30a170ad17f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99-Tools">
+      <UniqueIdentifier>{80d6e739-63d5-4d63-aeae-27b45b301863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1-Platform%28PAL%29">
+      <UniqueIdentifier>{64e2246e-1f2b-42fa-9bff-9d092079a943}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3-Object">
+      <UniqueIdentifier>{72e0b89e-eb48-492f-9a0a-cbef1fdb071b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4-SceneManager">
+      <UniqueIdentifier>{7870e2da-f78a-42e1-bb58-f458308dc371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="999-Debugging">
+      <UniqueIdentifier>{884784eb-4a7d-4e13-980b-3921364b4467}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5-Entities">
+      <UniqueIdentifier>{d80e424c-beef-4ae8-80e4-e01ebef3b8f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1-Platform%28PAL%29\AudioManager">
+      <UniqueIdentifier>{2a6a47de-1fc4-48e7-a401-3f8f2e0e77b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2-Engine\ResourceManager">
+      <UniqueIdentifier>{6241ed58-61f9-492c-8d3e-a02b0bce895e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2-Engine\Component">
+      <UniqueIdentifier>{1d3c2f0a-3446-46fe-a034-82ab7fb09c02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5-Entities\Objects">
+      <UniqueIdentifier>{81533d36-9f12-48b9-84e7-b4c18abdc2d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5-Entities\Scenes">
+      <UniqueIdentifier>{2672dfa8-6cb8-475b-a615-f31e855fae6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5-Entities\Objects\Character">
+      <UniqueIdentifier>{c22c9fa0-890e-46b3-9f12-49aeea2b2e40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5-Entities\Objects\Items">
+      <UniqueIdentifier>{5e980e27-d366-49d3-91de-f96e77d03ba2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>0-Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AudioManager.cpp">
+      <Filter>1-Platform%28PAL%29\AudioManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ResourceManager.cpp">
+      <Filter>2-Engine\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Effect.hpp">
+      <Filter>5-Entities\Objects\Items</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\InputManager.hpp">
+      <Filter>1-Platform%28PAL%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game.hpp">
+      <Filter>0-Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Vector.hpp">
+      <Filter>99-Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GraphicsManager.hpp">
+      <Filter>1-Platform%28PAL%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StateMachine.hpp">
+      <Filter>99-Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera.hpp">
+      <Filter>1-Platform%28PAL%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Bounds2.hpp">
+      <Filter>99-Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ObjectPool.hpp">
+      <Filter>3-Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene.hpp">
+      <Filter>4-SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneManager.hpp">
+      <Filter>4-SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\InputMapping.hpp">
+      <Filter>2-Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy.hpp">
+      <Filter>5-Entities\Objects\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Player.hpp">
+      <Filter>5-Entities\Objects\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AudioManager.hpp">
+      <Filter>1-Platform%28PAL%29\AudioManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ResourceManager.hpp">
+      <Filter>2-Engine\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Component.hpp">
+      <Filter>2-Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PhysicsComponent.hpp">
+      <Filter>2-Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BackgroundComponent.hpp">
+      <Filter>2-Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObject.hpp">
+      <Filter>3-Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Global.hpp">
+      <Filter>0-Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TransformComponent.hpp">
+      <Filter>2-Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SpriteComponent.hpp">
+      <Filter>2-Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ColliderComponent.hpp">
+      <Filter>2-Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TestItem.hpp">
+      <Filter>5-Entities\Objects\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StateComponent.hpp">
+      <Filter>2-Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Map.hpp">
+      <Filter>99-Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TitleScene.hpp">
+      <Filter>5-Entities\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ProgressManager.hpp">
+      <Filter>99-Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tile.hpp">
+      <Filter>5-Entities\Objects\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Goal.hpp">
+      <Filter>5-Entities\Objects\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Stage1.hpp">
+      <Filter>5-Entities\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MovingPlatform.hpp">
+      <Filter>5-Entities\Objects\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Status.hpp">
+      <Filter>99-Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Icicle.hpp">
+      <Filter>5-Entities\Objects\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UnlockItem.hpp">
+      <Filter>5-Entities\Objects\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Character.hpp">
+      <Filter>3-Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Particle.hpp">
+      <Filter>5-Entities\Objects\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\InputDisplayPanel.hpp">
+      <Filter>5-Entities\Objects\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameOverScene.hpp">
+      <Filter>5-Entities\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ResultScene.hpp">
+      <Filter>5-Entities\Scenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
